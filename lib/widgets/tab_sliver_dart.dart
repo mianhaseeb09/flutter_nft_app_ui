@@ -11,15 +11,14 @@ class TabSliverDelegate extends SliverPersistentHeaderDelegate {
       BuildContext context, double shrinkOffset, bool overlapsContent) {
     // TODO: implement build
     return Container(
-      decoration: BoxDecoration(
-          color: Colors.white,
-          border: Border(
-              bottom: BorderSide(
-            color: Colors.grey[200]!,
-          ))),
-      padding: EdgeInsets.only(left: 15, right: space ? 120 : 15),
-    child: tabBar
-    );
+        decoration: BoxDecoration(
+            color: Colors.white,
+            border: Border(
+                bottom: BorderSide(
+              color: Colors.grey[200]!,
+            ))),
+        padding: EdgeInsets.only(left: 15, right: space ? 120 : 15),
+        child: tabBar);
   }
 
   @override

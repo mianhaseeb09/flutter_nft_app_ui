@@ -42,10 +42,16 @@ class ProfileScreen extends StatelessWidget {
                   pinned: true),
             ];
           },
-          body:  TabBarView(
+          body: TabBarView(
             children: [
-              CustomGrid(scrollKey:'creations', list: profile.creations!,),
-              CustomGrid(scrollKey:'collections', list: profile.collections!,)
+              CustomGrid(
+                scrollKey: 'creations',
+                list: profile.creations!,
+              ),
+              CustomGrid(
+                scrollKey: 'collections',
+                list: profile.collections!,
+              )
             ],
           ),
         ),

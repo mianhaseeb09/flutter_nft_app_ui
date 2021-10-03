@@ -1,4 +1,5 @@
 import 'package:flutter_nft_app_ui/model/add.dart';
+import 'package:flutter_nft_app_ui/model/bider.dart';
 
 class Profile {
   String? imgUrl;
@@ -31,54 +32,84 @@ class Profile {
               imgUrl: 'assets/images/create1.jpeg',
               name: 'Consume',
               price: 1.53,
-              desc: 'So Happy to Share My second Collab with my dear'),
+              desc:
+                  'So Happy to Share My second Collab with my dear father @fuckrendor i am So proud of his works and accomplishments',
+              birds: Bidder.generateBidder(),
+              hisory: Bidder.generateHistory()),
           Art(
               imgUrl: 'assets/images/create2.jpeg',
               name: 'Consume',
               price: 1.53,
-              desc: 'So Happy to Share My second Collab with my dear'),
+              desc:
+                  'So Happy to Share My second Collab with my dear father @fuckrendor i am So proud of his works and accomplishments',
+              birds: Bidder.generateBidder(),
+              hisory: Bidder.generateHistory()),
           Art(
               imgUrl: 'assets/images/create3.jpeg',
               name: 'Consume',
               price: 1.53,
-              desc: 'So Happy to Share My second Collab with my dear'),
+              desc:
+                  'So Happy to Share My second Collab with my dearfather @fuckrendor i am So proud of his works and accomplishments ',
+              birds: Bidder.generateBidder(),
+              hisory: Bidder.generateHistory()),
           Art(
               imgUrl: 'assets/images/create4.jpeg',
               name: 'Consume',
               price: 1.53,
-              desc: 'So Happy to Share My second Collab with my dear'),
+              desc:
+                  'So Happy to Share My second Collab with my dear father @fuckrendor i am So proud of his works and accomplishments ',
+              birds: Bidder.generateBidder(),
+              hisory: Bidder.generateHistory()),
           Art(
               imgUrl: 'assets/images/create5.jpeg',
               name: 'Consume',
               price: 1.53,
-              desc: 'So Happy to Share My second Collab with my dear')
+              desc:
+                  'So Happy to Share My second Collab with my dear father @fuckrendor i am So proud of his works and accomplishments',
+              birds: Bidder.generateBidder(),
+              hisory: Bidder.generateHistory())
         ],
         collections: [
           Art(
               imgUrl: 'assets/images/collection1.jpeg',
               name: 'Consume',
               price: 1.53,
-              desc: 'So Happy to Share My second Collab with my dear'),
+              desc:
+                  'So Happy to Share My second Collab with my dear father @fuckrendor i am So proud of his works and accomplishments',
+              birds: Bidder.generateBidder(),
+              hisory: Bidder.generateHistory()),
           Art(
               imgUrl: 'assets/images/collection2.jpeg',
               name: 'Consume',
               price: 1.53,
-              desc: 'So Happy to Share My second Collab with my dear'),
+              desc:
+                  'So Happy to Share My second Collab with my dear father @fuckrendor i am So proud of his works and accomplishments ',
+              birds: Bidder.generateBidder(),
+              hisory: Bidder.generateHistory()),
           Art(
               imgUrl: 'assets/images/collection3.jpeg',
               name: 'Consume',
               price: 1.53,
-              desc: 'So Happy to Share My second Collab with my dear'),
+              desc:
+                  'So Happy to Share My second Collab with my dear father @fuckrendor i am So proud of his works and accomplishments',
+              birds: Bidder.generateBidder(),
+              hisory: Bidder.generateHistory()),
           Art(
               imgUrl: 'assets/images/collection4.jpeg',
               name: 'Consume',
               price: 1.53,
-              desc: 'So Happy to Share My second Collab with my dear'),
+              desc:
+                  'So Happy to Share My second Collab with my dear father @fuckrendor i am So proud of his works and accomplishments',
+              birds: Bidder.generateBidder(),
+              hisory: Bidder.generateHistory()),
           Art(
               imgUrl: 'assets/images/collection5.jpeg',
               name: 'Consume',
               price: 1.53,
-              desc: 'So Happy to Share My second Collab with my dear')
+              desc:
+                  'So Happy to Share My second Collab with my dear father @fuckrendor i am So proud of his works and accomplishments',
+              birds: Bidder.generateBidder(),
+              hisory: Bidder.generateHistory())
         ]);
   }
 }
